@@ -40,7 +40,7 @@ function Form() {
     }  
         getWeather()
         HandleClick(false)
-    },[click])
+    },[city, click, country, data])
 
     const handleCityChange = value =>{
         setCity(value)
